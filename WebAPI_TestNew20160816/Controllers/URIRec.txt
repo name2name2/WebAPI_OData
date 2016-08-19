@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+main
+http://localhost:21576/odata/T4
+
+query
+http://localhost:21576/odata/T4?$filter=AgentID eq 'a'
+http://localhost:21576/odata/T4?$filter=AgentID eq 'a2'
+http://localhost:21576/odata/T4?$filter=AgentID eq 'a3'
+http://localhost:21576/odata/T4?$filter=Name eq 'ab3' and NotWorkOnTime_times eq 'ab4'
+http://localhost:21576/odata/T4?$filter=Name ne 'ab3'
+http://localhost:21576/odata/T4('a2')    //(id)  id設agentid 所以是agentid=a2意思
+
+
+
+
+語法 document
+http://docs.oasis-open.org/odata/odata/v4.0/errata03/odata-v4.0-errata03-part2-url-conventions-complete.html
+
+
+
+
+
+
+
+
+
+
